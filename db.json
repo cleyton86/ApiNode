@@ -1,0 +1,11 @@
+{
+    "users": [
+      { "id": 1, "username": "user1", "password": "hashed_password_1" },
+      { "id": 2, "username": "user2", "password": "hashed_password_2" }
+    ],
+    "itacors": [
+      { "id": 1, "name": "Itacor 1", "description": "Descrição do Itacor 1" },
+      { "id": 2, "name": "Itacor 2", "description": "Descrição do Itacor 2" }
+    ]
+  }
+  
