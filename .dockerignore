@@ -1,0 +1,28 @@
+# Ignorar node_modules no sistema local
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do ambiente local
+.env
+
+# Ignorar diretórios de build locais
+dist
+build
+
+# Ignorar diretórios e arquivos de controle de versão
+.git
+.gitignore
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dados sensíveis e credenciais
+*.pem
+*.key
+*.crt
+
+# Ignorar diretório específico da Vercel
+.vercel
