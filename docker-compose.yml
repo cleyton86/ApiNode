@@ -33,7 +33,6 @@ services:
       - db_data:/var/lib/mysql
 
 volumes:
-  db_data:
   labels:
     - "traefik.enable=true"
     - "traefik.http.routers.my_node_app.rule=Host(`apinodes.locbook.com.br`)" #Troque Pela URL
